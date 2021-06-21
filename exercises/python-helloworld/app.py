@@ -28,6 +28,8 @@ def metrics():
     app.logger.info('Metrics request successfull')
     return response
 
+    
+
 @app.route("/")
 def hello():
     ## log line
